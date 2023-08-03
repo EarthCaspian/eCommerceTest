@@ -1,0 +1,22 @@
+.popover-container {
+    position: relative;
+    display: inline-block;
+  }
+
+  .popover-content {
+    position: absolute;
+    z-index: 1;
+    width: 200px;
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 10px;
+    display: none;
+    top: 50%;
+    left: 100%;
+    transform: translate(10px, -50%);
+  }
+
+  .popover-container:hover .popover-content {
+    display: block;
+  }
